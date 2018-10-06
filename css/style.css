@@ -2,8 +2,6 @@ body {
   background-color: #f1dadd;
 }
 
-
-
 .container {
   width: 1024px;
   background-color: white;
@@ -13,22 +11,37 @@ body {
 
 }
 
+.photo > img {
+  border-radius: 4px;
+}
+
+.row, .basic-information-row {
+  display: grid;
+  grid-column-gap: 20px;
+}
 
 .row {
-  display: grid;
   grid-template-columns: 305px auto;
-  grid-column-gap: 20px;
+}
+
+.basic-information-row {
+  grid-template-columns: 1fr 3fr;
+}
+
+h1, h2 {
+  margin: 0;
 }
 
 h1 {
   text-align: center;
-  margin: 0;
 }
 
-.basic-information-row {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-column-gap: 20px;
-  text-align: left;
+.skills > span {
+  display: inline-block;
+  background-color: #979797;
+  border-radius: 15px;
+  padding: 3px 15px;
+  margin-right: 10px;
+  color: white;
 }
 
