@@ -1,25 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:700');
-
 body {
+  font-family: "Open Sans", "Arial", sans-serif;
+
   background-color: #dfdff5;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
   width: 1024px;
-  background-color: white;
   margin: 20px auto;
   padding: 20px;
   box-sizing: border-box;
+
+  background-color: white;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
 .photo > img {
-  border-radius: 4px;
   margin-top: 20px;
+
+  border-radius: 4px;
 }
 
-.row, .basic-information-row {
+.row,
+.basic-information-row {
   display: grid;
   grid-column-gap: 20px;
   margin-bottom: 30px;
@@ -33,23 +35,29 @@ body {
   grid-template-columns: 1fr 3fr;
 }
 
-h1, h2, h4 {
+h1,
+h2,
+h4 {
   margin: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
+
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 h1 {
-  text-align: center;
   margin-bottom: 20px;
+
+  text-align: center;
 }
 
 .skills > span {
   display: inline-block;
-  background-color: #979797;
-  border-radius: 15px;
   padding: 3px 15px;
   margin-right: 10px;
+
   color: white;
+
+  border-radius: 15px;
+  background-color: #979797;
 }
 
 a {
