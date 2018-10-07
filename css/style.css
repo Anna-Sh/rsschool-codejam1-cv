@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:700');
+
 body {
   background-color: #f1dadd;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .container {
@@ -28,8 +32,9 @@ body {
   grid-template-columns: 1fr 3fr;
 }
 
-h1, h2 {
+h1, h2, h4 {
   margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1 {
@@ -45,3 +50,6 @@ h1 {
   color: white;
 }
 
+a {
+  text-decoration: none;
+}
