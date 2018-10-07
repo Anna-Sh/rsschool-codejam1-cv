@@ -3,8 +3,6 @@
 body {
   background-color: #dfdff5;
   font-family: 'Open Sans', sans-serif;
-
-
 }
 
 .container {
@@ -14,7 +12,6 @@ body {
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
-
 }
 
 .photo > img {
@@ -30,7 +27,6 @@ body {
 
 .row {
   grid-template-columns: 305px auto;
-
 }
 
 .basic-information-row {
@@ -62,7 +58,7 @@ a {
 }
 
 a:hover {
-
+  color: black;
 }
 
 .row:last-of-type {
